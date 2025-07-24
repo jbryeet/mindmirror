@@ -32,3 +32,51 @@ No database required. All analysis runs locally.
 ```bash
 git clone https://github.com/YOUR_USERNAME/mindmirror.git
 cd mindmirror
+
+--
+## Set up Virtual Environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+--
+##Install Dependencies
+pip install -r requirements.txt
+
+--
+
+## Run the app
+python app.py
+
+--
+## ✨ Features
+Clean journaling interface
+
+Instant emotional analysis of journal entries
+
+Fully local and private (no data stored)
+
+Lightweight and easy to run
+
+mindmirror/
+│
+├── app.py               # Flask web server
+├── analysis.py          # Sentiment analysis logic
+├── requirements.txt     # Project dependencies
+├── templates/
+│   └── index.html       # Frontend interface
+└── .gitignore           # Ignored files and folders
+
+## Privacy
+MindMirror does not store, transmit, or log user entries. All analysis is done in-memory and locally in your browser session
+--
+
+## Contributions
+Feel free to fork, adapt, or build on top of this project. If you'd like to suggest a feature or fix a bug, open an issue or pull request.
+--
+
+## Possible Improvements
+Mood history tracking
+
+Tagging or categorizing journal entries
+
+More advanced emotion detection
+
