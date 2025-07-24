@@ -6,7 +6,7 @@
 
 ## 🧠 Overview
 
-MindMirror provides a simple interface: write about your day, submit, and get an immediate emotional analysis. It's meant to be lightweight, private, and user-friendly — no signups, no data tracking, no clutter.
+MindMirror provides a simple interface: write about your day, submit, and get an immediate emotional analysis. It's meant to be lightweight, private, and user-friendly,no signups, no data tracking, no clutter.
 
 ---
 
